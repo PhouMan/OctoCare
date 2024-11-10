@@ -1,0 +1,22 @@
+.flex-container{
+    display: flexbox;
+    flex-direction: row;
+    border: 2px;
+}
+
+
+.unlocked {
+    background-color: #2BD0DC;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+.locked{
+    border: 1px;
+    border-color: black;
+}
