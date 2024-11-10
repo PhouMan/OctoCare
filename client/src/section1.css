@@ -1,0 +1,93 @@
+.page-under {
+    height: 100vh; /* Ensures the content can scroll */
+    overflow-y: auto; /* Enables scrolling for the content */
+}
+
+.header-nav {
+    width: 390px;
+    height: 102px;
+    flex-shrink: 0;
+    background-color: #A3D2D6;
+    position: sticky; /* Makes it sticky */
+    top: 0; /* Sticks to the top of its container */
+    z-index: 10; /* Ensures it stays above other content */
+}
+.gear {
+    position: absolute;
+    top: 13px;
+    left: 345px;
+
+}
+
+.container-bar {
+    width: 370px;
+    height: 37px;
+    flex-shrink: 0;
+    background-color: #27ABB4;
+    position: absolute; 
+    border-radius: 5px;
+    top: 58px;
+    left: 11px;
+    position: relative;
+}
+
+.text-title {
+    width: 295px;
+    height: 40px;
+    flex-shrink: 0;
+    position: absolute; 
+    top: 18px;
+    left: 30px;
+    color: #000;
+    font-family: "Roboto Mono", monospace;
+    font-size: 12.5px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.back-arrow {
+    position: absolute;
+    top: 19px;
+    left: 15px;
+    fill: #000;
+}
+
+.progress-bar {
+    width: 154px;
+    height: 17px;
+    flex-shrink: 0;
+    background-color: #327184;
+    position: absolute; 
+    border-radius: 10px;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
+
+.whole-progress-bar {
+    width: 266px;
+    height: 17px;
+    flex-shrink: 0;
+    background-color: #4190A8;
+    position: absolute;
+    border-radius: 10px;
+    top: 10px;
+    left: 10px;
+    z-index: 0;
+}
+
+.circle-progress-bar {
+    position: absolute;
+    top: 4px;
+    left: 255px;
+    z-index: 2; 
+}
+
+.dashed-line-path {
+    position: absolute;
+    top: 158px;
+    left: 138px;
+    z-index: 0; 
+}
+
