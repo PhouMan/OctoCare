@@ -5,6 +5,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Home } from './home.js';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Helloworld } from "./helloworld.js";
 
 function App() {
   const [data, setData] = React.useState(null);
@@ -20,6 +21,7 @@ function App() {
         <Router>
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/helloworld" element={< Helloworld/>} />
             </Routes>
         </Router>
     </div>
