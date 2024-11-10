@@ -13,12 +13,12 @@ function Emergency(){
         <div className="emergency-container">
             <div className="rectangle">
                 <Link to="/">
-                    <button className='button-arrow' >
-                        <Arrow width="24" height="24"/>
-                        <div className="all-text">Emergency</div>
-                    </button>
+                <button className='button-arrow' >
+                    <Arrow width="24" height="24"/>
+                    <div className="all-text">Emergency</div>
+                </button>
                 </Link>
-              
+               
                 <button className="button-gear">
                     <Settings width="24" height="24"/>
                 </button>

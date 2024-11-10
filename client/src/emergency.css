@@ -11,12 +11,7 @@
 	background-color: #A3D2D6;
 }
 
-.container{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
+
 .rcorner1 {
 	border-radius: 25px;
 	background: #D1E6E8;
@@ -27,6 +22,7 @@
 	padding: 5%;
 	width: 70%;
 }
+
 
 .rcorner2 {
 	border-radius: 25px;
@@ -39,6 +35,7 @@
 	width: 70%;
 }
 
+
 .band {
 	border-radius: 50px;
 	background: #B91616;
@@ -49,7 +46,9 @@
 	padding: 0.5%;
 	width: 400px;
 
+
 }
+
 
 .rcorner3 {
 	border-radius: 25px;
@@ -61,23 +60,25 @@
 	padding: 5%;
 	width: 70%;
 
+
 }
 
 .emergency-container {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 .button-arrow{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color: #A3D2D6;
-	border-color: #A3D2D6;
-	margin: 10px 5px 5px 5px;
-    width: 40%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #A3D2D6;
+   border-color: #A3D2D6;
+   margin: 10px 5px 5px 5px;
+   width: 40%;
 }
+
 
 .button-phone {
 	display: flex;
@@ -88,6 +89,7 @@
     width: 60%;
 }
 
+
 .button-ex {
 	display: flex;
 	align-items: center;
@@ -96,6 +98,7 @@
 	border-color: #B91616;
     width: 50%;
 }
+
 
 .button-clock {
 	border-radius: 100px;
@@ -107,13 +110,18 @@
     width: 40%;
 }
 
+
 .button-gear {
 	border-radius: 100px;
     position: absolute;
 	top: 1px;
 	right: 2px;
 	width: 10%;
+    background-color: #A3D2D6;
+    outline: none;
+    border: 0;
 }
+
 
 .all-text {
     color: #000;
@@ -121,4 +129,3 @@
     font-size: 14px;
     font-weight: 700;
 }
-
