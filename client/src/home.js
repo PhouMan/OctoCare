@@ -17,7 +17,9 @@ function Home(){
             </div>
             {//emergency button will do things 
             }
-            <button className="emergency">Emergency</button>
+            <Link to='/emergency'>
+             <button className="emergency">Emergency</button>
+            </Link>
             <div className="flex-container">
             <Link to="/section1">
                 <button className="unlocked">
