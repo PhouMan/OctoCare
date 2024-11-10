@@ -3,6 +3,7 @@
 import React from "react";
 import logo from './logo.svg';
 import './App.css';
+import { Emergency } from './Emergency.js';
 import { Home } from './home.js';
 import { HomeCopy } from './home copy.js';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -22,6 +23,7 @@ function App() {
         <Router>
             <Routes>
                 <Route path="/" element={<Home />} />
+	        			<Route path="/Emergency" element={<Emergency />} />
                 <Route path="/section1/" element={<Section1 />} />
             </Routes>
         </Router>
