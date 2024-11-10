@@ -7,7 +7,6 @@
 
 
 .unlocked {
-    
     background-color: #2BD0DC;
     color: white;
     padding: 10%;
@@ -15,6 +14,7 @@
     text-align: center;
     border-radius: 10px;
     border-color: #2BD0DC;
+    font-family: 'Roboto Mono', monospace;
     font-size: 18px;
     font-weight: bold;
   }
@@ -28,6 +28,7 @@
     border-radius: 10px;
     border-color: #73ADB1;
     font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
     font-weight: bold;
 }
 
@@ -35,7 +36,7 @@
     background-color: #B91616;
     color: white;
     padding: 3%;
-    margin: 5% 0% 0% 0%;
+    margin: 50% 0% 0% 0%;
     text-align: center;
     border-radius: 10px;
     border-color: #B91616;
@@ -54,6 +55,7 @@ button {
 
 
 .landing-header {
+    position: fixed;
     display: flex;
     align-items: center;
     font-size: 24px;
@@ -67,6 +69,9 @@ button {
 }
 
 .footer {
+    position: fixed;
+    bottom: 0;
+    background: white;
     display: flex;
     justify-content: center;
     font-family: monospace;
