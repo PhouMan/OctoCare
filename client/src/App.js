@@ -3,6 +3,7 @@
 import React from "react";
 import logo from './logo.svg';
 import './App.css';
+import { Emergency } from './Emergency.js';
 import { Home } from './home.js';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -20,7 +21,9 @@ function App() {
         <Router>
             <Routes>
                 <Route path="/" element={<Home />} />
+				<Route path="/Emergency" element={<Emergency />} />
             </Routes>
+			
         </Router>
     </div>
   );
