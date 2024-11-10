@@ -9,6 +9,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Helloworld } from "./helloworld.js";
 import { Section1 } from "./section1.js";
 import ReadPage from "./readPage.js";
+import { Emergency } from "./emergency.js";
+
 
 
 function App() {
@@ -29,6 +31,8 @@ function App() {
                 <Route path="/helloworld" element={< Helloworld/>} />
 	        			<Route path="/Emergency" element={<Emergency />} />
                 <Route path="/section1/" element={<Section1 />} />
+                <Route path="/emergency/" element={<Emergency />} />
+
 
                 <Route 
                   path="/readSection1/:id" 
