@@ -4,6 +4,7 @@ import React from "react";
 import logo from './logo.svg';
 import './App.css';
 import { Home } from './home.js';
+import { HomeCopy } from './home copy.js';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Section1 } from "./section1.js";
 
