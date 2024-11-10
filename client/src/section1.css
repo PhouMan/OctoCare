@@ -1,17 +1,12 @@
-.page-under {
-    height: 100vh; /* Ensures the content can scroll */
-    overflow-y: auto; /* Enables scrolling for the content */
-}
-
-.header-nav {
+/* .header-nav {
     width: 390px;
     height: 102px;
     flex-shrink: 0;
     background-color: #A3D2D6;
-    position: sticky; /* Makes it sticky */
-    top: 0; /* Sticks to the top of its container */
-    z-index: 10; /* Ensures it stays above other content */
-}
+    position: sticky; 
+    top: 0; 
+    z-index: 10; 
+} */
 .gear {
     position: absolute;
     top: 13px;
@@ -47,9 +42,7 @@
 }
 
 .back-arrow {
-    position: absolute;
-    top: 19px;
-    left: 15px;
+    position: static;  /* Remove absolute positioning */
     fill: #000;
 }
 
@@ -91,3 +84,62 @@
     z-index: 0; 
 }
 
+
+.page-background {
+    position: relative;
+    padding-bottom: 20px;
+    min-height: calc(100vh - 102px);
+    display: flex;
+    justify-content: center;
+}
+
+
+.header-nav {
+    width: 100%;
+    height: 102px;
+    background-color: #A3D2D6;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+}
+
+.header-content {
+    position: relative;
+    width: 390px;
+    height: 100%;
+}
+
+.center {
+    position: relative;
+    width: 390px; /* Match header-content width */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.octo-logo {
+    position: absolute;
+    top: 300px;
+    left: 50px;
+}
+
+.back-arrow-link {
+    position: absolute;
+    top: 19px;
+    left: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    margin: -8px;  /* Offset padding to maintain position */
+    border-radius: 50%;
+    transition: background-color 0.2s;
+}
+
+.back-arrow-link:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
