@@ -5,6 +5,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Home } from './home.js';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Section1 } from "./section1.js";
 
 function App() {
   const [data, setData] = React.useState(null);
@@ -20,6 +21,7 @@ function App() {
         <Router>
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/section1/" element={<Section1 />} />
             </Routes>
         </Router>
     </div>
