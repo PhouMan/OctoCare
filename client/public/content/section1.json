@@ -1,0 +1,48 @@
+{
+    "title": "Section 1: Stroke",
+    "sections": [
+      {
+        "type": "text",
+        "content": "How to recognize the symptoms of stroke: \n Stroke is when blood flow is blocked or there is sudden bleeding in the brain. It is important to know how to recognize a stroke in order to take quick and decisive action that may save a life. The acronym FAST is widely used around the world and by the National Stroke Association to educate people on quickly and efficiently identifying the symptoms of a stroke. \n\nLet’s break it down:",
+        "margin": "2% 0% 2% 0%"
+      },
+      {
+        "type": "image",
+        "url": "https://www.wellahealth.com/blog/wp-content/uploads/2024/06/Stroke3.png",
+        "alt": "Stroke Symptoms Diagram",
+        "margin": "2% 0%"
+      },
+      {
+        "type": "text",
+        "content": "F - Facial drooping \nLook at the face, if they have an uneven smile or their facial features are drooping to one side. They may also feel numb on one side of their face.",
+        "margin": "2% 0% 2% 0%"
+      },
+      {
+        "type": "text",
+        "content": "A - Arm weakness \nAsk them to lift both hands in the air, if one arm drops or is weaker than the other, they may be experiencing a stroke. The reason for this phenomenon is that the obstruction to the brain will affect the body's side of the brain experiencing neurological complications.",
+        "margin": "2% 0% 2% 0%"
+      },
+      {
+        "type": "text",
+        "content": "S - Stability \nThey may be unbalanced and dizzy, fall, or unable to stand at all. Be sure to assist them to a sitting or lying down position.",
+        "margin": "2% 0% 2% 0%"
+      },
+      {
+        "type": "text",
+        "content": "T - Talking \nThey may also experience difficulty talking, slurred speech, or sound like they are speaking gibberish. They might not be able to comprehend what is happening around them, and unable to understand what you are saying.",
+        "margin": "2% 0% 2% 0%"
+      },
+      {
+        "type": "text",
+        "content": "If someone you know is exhibiting these symptoms, stay calm, react fast, call 911 and alert them that someone may be experiencing a stroke. It is important to call 911 immediately, as timing is crucial for receiving the proper stroke treatment. ",
+        "margin": "2% 0% 2% 0%"
+      },
+      {
+        "type": "references",
+        "items": [
+          "Corewell Health: 'Stroke Symptoms: From FAST to FASTER'"
+        ],
+        "margin": "5% 0% 2% 0%"
+      }
+    ]
+  }

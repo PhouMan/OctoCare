@@ -1,0 +1,96 @@
+/* ReadPage.css */
+
+.read-page {
+
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+  }
+  
+  .read-page.loading,
+  .read-page.error,
+  .read-page.no-content {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 1.2em;
+  }
+  
+  .landing-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .landing-header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #2BD0DC;
+  }
+  
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+/* ReadPage.css */
+
+.text-section {
+    background-color: #f0f8fa;
+    padding: 20px 30px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+    white-space: pre-line; /* Handles \n as line breaks */
+    text-align: left; /* Ensure left alignment */
+}
+
+  .image-section {
+    text-align: center;
+  }
+  
+  .image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .references-section {
+    background-color: #e0f7fa;
+    padding: 20px 30px;
+    border-radius: 8px;
+  }
+  
+  .references-section h3 {
+    margin-top: 0;
+    color: #00796b;
+  }
+  
+  .references-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .references-section li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .back-link {
+    text-decoration: none;
+    color: #2BD0DC;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .back-link:hover {
+    color: #00796b;
+  }
+  
