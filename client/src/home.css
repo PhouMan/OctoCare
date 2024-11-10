@@ -9,14 +9,43 @@
     background-color: #2BD0DC;
     color: white;
     padding: 10px;
-    margin: 10px 0;
+    margin: 1% 0%;
     text-align: center;
     border-radius: 5px;
+    border-color: #2BD0DC;
     font-size: 18px;
     font-weight: bold;
   }
 
-.locked{
+.locked {
+    background-color: #2BD0DC;
+    color: white;
+    padding: 10px;
+    margin: 1% 0%;
+    text-align: center;
+    border-radius: 5px;
+    border-color: #2BD0DC;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.emergency {
+    background-color: #B91616;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 5px;
+    border-color: #B91616;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*.locked{
     border: 1px;
     border-color: black;
+}*/
+
+button {
+    width: 80%;
 }

@@ -1,6 +1,7 @@
 import './home.css';
 import { Link } from 'react-router-dom';
-import { LockOff } from './images/LockOff.svg'
+import { ReactComponent as LockOff } from './images/LockOff.svg'
+import { ReactComponent as LockOn } from './images/LockOn.png'
 
 function Home(){
     return (
@@ -10,17 +11,18 @@ function Home(){
             }
             <button className="emergency">Emergency</button>
             <div className="flex-container">
-            
-                <div className="unlocked">Section 1
-                    <img src={LockOff} width="100" height="100"></img>
-                </div>
-                <div className="locked">Section 2</div>
-                <div className="locked">Section 3</div>
-                <div className="locked">Section 4</div>
-                <div className="locked">Section 5</div>
-                <div className="locked">Section 6</div>
-                <div className="locked">Section 7</div>
-                <div className="locked">Section 8</div>
+                <button className="unlocked">
+                    <LockOff width="24" height="24"/>Section 1
+                </button>
+                <button className="locked">
+                    <LockOn width="24" height="24"/>Section 2
+                </button>
+                <button className="locked">Section 3</button>
+                <button className="locked">Section 4</button>
+                <button className="locked">Section 5</button>
+                <button className="locked">Section 6</button>
+                <button className="locked">Section 7</button>
+                <button className="locked">Section 8</button>
 
             </div>
         </div>
