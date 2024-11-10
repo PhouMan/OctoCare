@@ -5,11 +5,13 @@
 }
 
 
+
 .unlocked {
+    
     background-color: #2BD0DC;
     color: white;
     padding: 10%;
-    margin: 5% 0% 1% 0%;
+    margin: 5% 0% 2% 0%;
     text-align: center;
     border-radius: 10px;
     border-color: #2BD0DC;
@@ -21,7 +23,7 @@
     background-color: #73ADB1;
     color: #CBCBCB;
     padding: 10%;
-    margin: 1% 0%;
+    margin: 1% 0% 2% 0%;
     text-align: center;
     border-radius: 10px;
     border-color: #73ADB1;
@@ -62,4 +64,14 @@ button {
     width: 100%;
     height: 175px;
     background: #A3D2D6;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 16px;
+    width: 100%;
+    height: 40px;
+    
 }
