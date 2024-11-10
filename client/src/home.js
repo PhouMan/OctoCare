@@ -19,31 +19,29 @@ function Home(){
             }
             <button className="emergency">Emergency</button>
             <div className="flex-container">
-            <Link to="/section1">
                 <button className="unlocked">
-                    <LockOff width="24" height="24"/>Section I
-                </button>
-            </Link>
-                <button className="locked">
-                    <LockOn width="24" height="24"/>Section II
+                    <LockOff width="24" height="24"/>Section 1
                 </button>
                 <button className="locked">
-                    <LockOn width="24" height="24"/>Section III
+                    <LockOn width="24" height="24"/>Section 2
                 </button>
                 <button className="locked">
-                    <LockOn width="24" height="24"/>Section IV
+                    <LockOn width="24" height="24"/>Section 3
                 </button>
                 <button className="locked">
-                    <LockOn width="24" height="24"/>Section V
+                    <LockOn width="24" height="24"/>Section 4
                 </button>
                 <button className="locked">
-                    <LockOn width="24" height="24"/>Section VI
+                    <LockOn width="24" height="24"/>Section 5
                 </button>
                 <button className="locked">
-                    <LockOn width="24" height="24"/>Section VII
+                    <LockOn width="24" height="24"/>Section 6
                 </button>
                 <button className="locked">
-                    <LockOn width="24" height="24"/>Section VIII
+                    <LockOn width="24" height="24"/>Section 7
+                </button>
+                <button className="locked">
+                    <LockOn width="24" height="24"/>Section 8
                 </button>
                 <div className="footer">
                     <Disclaimer width="26" height="26"/>
