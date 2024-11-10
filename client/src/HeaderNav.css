@@ -1,0 +1,126 @@
+.header-nav {
+    width: 100%;
+    height: 102px;
+    background-color: #A3D2D6;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Vertically center the content */
+}
+
+.header-content {
+    position: relative;
+    width: 390px;
+    height: 100%;
+}
+
+.text-title {
+    width: 295px;
+    height: 40px;
+    flex-shrink: 0;
+    position: absolute; 
+    top: 18px;
+    left: 30px;
+    color: #000;
+    font-family: "Roboto Mono", monospace;
+    font-size: 16px; /* Increased font size for better visibility */
+    font-weight: 700;
+    line-height: 1;
+}
+
+.back-arrow-link {
+    position: absolute;
+    top: 19px;
+    left: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    margin: -8px;  /* Offset padding to maintain position */
+    border-radius: 50%;
+    transition: background-color 0.2s;
+}
+
+.back-arrow-link:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.gear {
+    position: absolute;
+    top: 13px;
+    left: 345px;
+}
+
+.container-bar {
+    width: 370px;
+    height: 37px;
+    background-color: #27ABB4;
+    border-radius: 5px;
+    position: absolute; 
+    top: 58px;
+    left: 11px;
+    display: flex;
+    align-items: center;
+}
+
+.whole-progress-bar {
+    width: 266px;
+    height: 17px;
+    background-color: #4190A8;
+    border-radius: 10px;
+    position: relative;
+    z-index: 0;
+}
+
+.progress-bar {
+    width: 154px;
+    height: 17px;
+    background-color: #327184;
+    border-radius: 10px;
+    position: absolute; 
+    left: 10px;
+    z-index: 1;
+}
+
+.circle-progress-bar {
+    position: absolute;
+    top: 4px;
+    left: 255px;
+    z-index: 2; 
+}
+
+.dashed-line-path {
+    position: absolute;
+    top: 158px;
+    left: 138px;
+    z-index: 0; 
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .header-content {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .text-title {
+        font-size: 14px;
+        left: 20px;
+    }
+
+    .gear {
+        left: 300px;
+    }
+
+    .container-bar {
+        width: 100%;
+        left: 0;
+    }
+
+    .circle-progress-bar {
+        left: 200px;
+    }
+}
