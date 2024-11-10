@@ -1,0 +1,34 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 8px);
+    grid-template-rows: repeat(auto-fill, 8px);
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .grid-item {
+    border: 1px solid #ccc;
+    width: 8px;
+    height: 8px;
+  }
+  
+  .grid-item.initial {
+    background-color: #AAAFB4;
+  }
+  
+  .grid-item.clicked {
+    background-color: black;
+  }
+  
+  .bouncing-pixel {
+    background-color: red;
+    transition: transform 0.1s linear;
+  }
