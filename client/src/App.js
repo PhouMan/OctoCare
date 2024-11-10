@@ -7,7 +7,9 @@ import { Emergency } from './Emergency.js';
 import { Home } from './home.js';
 import { HomeCopy } from './home copy.js';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Helloworld } from "./helloworld.js";
 import { Section1 } from "./section1.js";
+
 
 function App() {
   const [data, setData] = React.useState(null);
@@ -23,6 +25,7 @@ function App() {
         <Router>
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/helloworld" element={< Helloworld/>} />
 	        			<Route path="/Emergency" element={<Emergency />} />
                 <Route path="/section1/" element={<Section1 />} />
             </Routes>
