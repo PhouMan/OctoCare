@@ -33,7 +33,7 @@ function Section1() {
     return (
         <>
             <div className="header-nav">
-                <div className='text-title'>SECTION I</div>
+                <div className='text-title'>SECTION I: Emergency Response Protocol</div>
                 <svg className="back-arrow" xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" fill=''>
                     <path d="M5.66667 10.375L1.5 6M1.5 6L5.66667 1.625M1.5 6L11.5 6" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
@@ -105,8 +105,6 @@ function Section1() {
                  <svg className='dashed-line-path' xmlns="http://www.w3.org/2000/svg" width="208" height="689" viewBox="0 0 208 689" fill="none">
                     <path d="M96 3C143.667 40.5 230.4 140.9 196 242.5C153 369.5 -100 417 51.5 707.5" stroke="black" stroke-opacity="0.15" stroke-width="7" stroke-dasharray="22 13"/>
                 </svg>
-
-               
 
             </div>
 </>
